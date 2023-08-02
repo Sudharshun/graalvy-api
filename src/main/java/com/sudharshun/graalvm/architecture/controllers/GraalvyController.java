@@ -19,7 +19,6 @@ public class GraalvyController {
 
     @GetMapping("/pythonifyme/{content}")
     Optional<String> pythonifyme(@PathVariable String content) {
-        System.out.println("===>"+this.graalvyApiService.dosomething(content));
-        return Optional.of(content.toUpperCase());
+        return Optional.of(this.graalvyApiService.dosomething(content));
     }
 }
