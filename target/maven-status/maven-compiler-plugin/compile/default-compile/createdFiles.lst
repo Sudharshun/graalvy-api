@@ -1,0 +1,4 @@
+com/sudharshun/graalvm/architecture/controllers/GraalvyController.class
+com/sudharshun/graalvm/architecture/GraalvyApiApplication.class
+com/sudharshun/graalvm/architecture/configuration/PythonConfiguration.class
+com/sudharshun/graalvm/architecture/service/GraalvyApiService.class
